@@ -14,7 +14,6 @@ public class Main {
 		double resultat = service.changeLengthUnit(1, Lengths.Feet, Lengths.Centimeters);
 		System.out.println(resultat);
 		
-		
 	}
 
 }
