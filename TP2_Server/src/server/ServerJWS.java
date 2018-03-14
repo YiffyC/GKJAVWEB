@@ -11,6 +11,7 @@ public class ServerJWS
 	{
 
 		String url = "http://localhost:8585/";
+		//voir wsdl http://localhost:8585/BanqueWS?wsdl
 		Endpoint.publish(url,  new BanqueService());
 		System.out.println(url);
 
