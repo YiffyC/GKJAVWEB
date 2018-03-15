@@ -1,0 +1,11 @@
+eclipse.preferences.version=1
+encoding//src/NET/webserviceX/www/LengthUnit.java=UTF-8
+encoding//src/NET/webserviceX/www/LengthUnitLocator.java=UTF-8
+encoding//src/NET/webserviceX/www/LengthUnitSoap.java=UTF-8
+encoding//src/NET/webserviceX/www/LengthUnitSoapStub.java=UTF-8
+encoding//src/NET/webserviceX/www/Lengths.java=UTF-8
+encoding//src/ws/BanqueService.java=UTF-8
+encoding//src/ws/BanqueServicePortBindingStub.java=UTF-8
+encoding//src/ws/BanqueWS.java=UTF-8
+encoding//src/ws/BanqueWSLocator.java=UTF-8
+encoding//src/ws/Compte.java=UTF-8
