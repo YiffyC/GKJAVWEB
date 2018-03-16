@@ -3,18 +3,23 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
+import javax.websocket.server.PathParam;
+import javax.ws.rs.Path;
+
 import metier.Compte;
 
 
-
+@Path("/banque")
 public class BanqueService
 {
-	public double conversion(double mt)
+	@Path("/conversion/{montant}")
+	public double conversion(@PathParam("montant") double mt)
 	{
 		return mt*1.11;
 	}
 	
-	public Compte getCompte(long code)
+	@Path("/{code}")
+	public Compte getCompte(@PathParam("code")long code)
 	{
 		return new Compte(code, 7000, new Date());
 	}
